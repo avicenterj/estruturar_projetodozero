@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "estruturar-projetodozero"
+version = "0.1.0"
+description = "Meu Projeto de ETL - Estruturação"
+authors = ["avicenterj <avicenterj@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.5"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
